@@ -1,0 +1,78 @@
+@echo off
+set TOKEN=eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQURNSU4iLCJzdWIiOiJwbGFjZW1lbnRjZWxsQHNlY2UuYWMuaW4iLCJpYXQiOjE3NzQ0OTc2OTAsImV4cCI6MTc3NDU4NDA5MH0.QoVHWTtJlSEktZ_pydx7ivC872XOk2Wl9f_XeqcE5vw
+set URL=http://localhost:8080/api/auth/register
+set H=-H "Content-Type: application/json"
+
+echo Registering CSBS students...
+curl -s -X POST %URL% %H% -d "{\"name\":\"Anas F\",\"email\":\"anas.f2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Anuvidhya R\",\"email\":\"anuvidhya.r2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Arunika N\",\"email\":\"arunika.n2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Ashmita S\",\"email\":\"ashmita.s2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Augustina Kanthi\",\"email\":\"augustina.kanthi2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Deepak E\",\"email\":\"deepak.e2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Deepak I\",\"email\":\"deepak.i2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Dhanwanth DJ\",\"email\":\"dhanwanth.dj2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Dharanivasan V\",\"email\":\"dharanivasan.v2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Dharanidharan T\",\"email\":\"dharanidharan.t2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Giribalan D\",\"email\":\"giribalan.d2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Guruvaishnavi S\",\"email\":\"guruvaishnavi.s2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Harishni SS\",\"email\":\"harishni.ss2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Ilakiya K\",\"email\":\"ilakiya.k2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Jacquiline Joshuakihimbi\",\"email\":\"jacquiline.joshuakihimbi2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Jaipreethi PK\",\"email\":\"jaipreethi.pk2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Jaswin DL\",\"email\":\"jaswin.dl2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Jenitta J\",\"email\":\"jenitta.j2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Karthik K\",\"email\":\"karthik.k2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Kausika G\",\"email\":\"kausika.g2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Keerthi RV\",\"email\":\"keerthi.rv2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Maheswarapandiyan A\",\"email\":\"maheswarapandiyan.a2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Midulaa S\",\"email\":\"midulaa.s2024csbs@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSBS\"}"
+
+echo Registering CCE students...
+curl -s -X POST %URL% %H% -d "{\"name\":\"Deepthika B\",\"email\":\"deepthika.b2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Dharshini K\",\"email\":\"dharshini.k2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Dheepan Chakravarthi\",\"email\":\"dheepan.chakravarthi2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Dhevavarshana DK\",\"email\":\"dhevavarshana.dk2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Dinesh S\",\"email\":\"dinesh.s2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Festo Erickmapunda\",\"email\":\"festo.erickmapunda2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Gayathridevi K\",\"email\":\"gayathridevi.k2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Gokulnaath N\",\"email\":\"gokulnaath.n2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Harinarayan S\",\"email\":\"harinarayan.s2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Harini R\",\"email\":\"harini.r2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Harshitha V\",\"email\":\"harshitha.v2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Iniya C\",\"email\":\"iniya.c2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Jebarson E\",\"email\":\"jebarson.e2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Kabil Munishwar\",\"email\":\"kabil.munishwar2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Kavinilavu R\",\"email\":\"kavinilavu.r2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Kingstan J\",\"email\":\"kingstan.j2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Lathikashree S\",\"email\":\"lathikashree.s2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Mathimozhi J\",\"email\":\"mathimozhi.j2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Meiharishgokul S\",\"email\":\"meiharishgokul.s2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Mohamed Jeseem\",\"email\":\"mohamed.jeseem2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Monikasree D\",\"email\":\"monikasree.d2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Neha S\",\"email\":\"neha.s2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Nethraharini K\",\"email\":\"nethraharini.k2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Nithin M\",\"email\":\"nithin.m2024cce@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CCE\"}"
+
+echo Registering CSE students...
+curl -s -X POST %URL% %H% -d "{\"name\":\"Aastha Gupta\",\"email\":\"aastha.gupta2024cse@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Abishree R\",\"email\":\"abishree.r2024cse@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Abinayaa A\",\"email\":\"abinayaa.a2024cse@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Adarsha U\",\"email\":\"adarsha.u2024cse@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Ahmed Rifaz\",\"email\":\"ahmed.rifaz2024cse@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Aishwaryaa MM\",\"email\":\"aishwaryaa.mm2024cse@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSE\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Aishwarya SR\",\"email\":\"aishwarya.sr2024cse@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"CSE\"}"
+
+echo Registering AIDS students...
+curl -s -X POST %URL% %H% -d "{\"name\":\"Abdul Hakkim\",\"email\":\"abdul.hakkim2024aids@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"AIDS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Abhinav K\",\"email\":\"abhinav.k2024aids@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"AIDS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Abhinav Praveen\",\"email\":\"abhinav.praveen2024aids@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"AIDS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Abivignesh S\",\"email\":\"abivignesh.s2024aids@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"AIDS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Abinash S\",\"email\":\"abinash.s2024aids@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"AIDS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Abinesh S\",\"email\":\"abinesh.s2024aids@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"AIDS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Abishek SK\",\"email\":\"abishek.sk2024aids@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"AIDS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Adhiban P\",\"email\":\"adhiban.p2024aids@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"AIDS\"}"
+curl -s -X POST %URL% %H% -d "{\"name\":\"Adithyan J\",\"email\":\"adithyan.j2024aids@sece.ac.in\",\"password\":\"student123\",\"role\":\"STUDENT\",\"departmentName\":\"AIDS\"}"
+
+echo Done! All students registered.
+pause

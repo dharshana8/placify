@@ -1,0 +1,1 @@
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQURNSU4iLCJzdWIiOiJhZG1pbkBwbGFjaWZ5LmNvbSIsImlhdCI6MTc3NTMyMDU5NywiZXhwIjoxNzc1NDA2OTk3fQ.lCtgsV0x9O-zdnn2vswE9XX219OY2TOhSeHqpxMVyFU","role":"ADMIN","name":"System Admin","userId":1,"profileId":1}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fix Database</title>
+</head>
+<body>
+    <h1>Database Fix Tool</h1>
+    <button onclick="fixData()">Click to Fix Departments & CGPAs</button>
+    <pre id="result"></pre>
+    
+    <script>
+        async function fixData() {
+            const token = prompt('Enter admin JWT token (from localStorage):');
+            if (!token) return;
+            
+            try {
+                const response = await fetch('http://localhost:8080/api/admin/fix-departments', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': 'Bearer ' + token,
+                        'Content-Type': 'application/json'
+                    }
+                });
+                const data = await response.json();
+                document.getElementById('result').textContent = JSON.stringify(data, null, 2);
+            } catch (e) {
+                document.getElementById('result').textContent = 'Error: ' + e.message;
+            }
+        }
+    </script>
+</body>
+</html>
