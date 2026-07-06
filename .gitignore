@@ -1,0 +1,27 @@
+# Environment files
+.env
+.env.local
+*.env
+
+# Secrets / credentials
+token.txt
+
+# Java build output
+backend/target/
+
+# Uploaded files
+backend/uploads/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+backend/backend.log
+backend-log.txt
